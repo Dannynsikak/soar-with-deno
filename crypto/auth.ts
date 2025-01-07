@@ -64,5 +64,4 @@ const checkAuth = async (ctx: Context, next: Next) => {
 
   return await next();
 };
-
 export default checkAuth;
